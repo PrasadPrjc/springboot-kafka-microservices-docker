@@ -1,7 +1,7 @@
 # Microservices with Spring Boot and Kafka  Project 
 
 ## Description
-There are three microservices: \
+Created below microservices: \
 `order-service` - it sends `Order` events to the Kafka topic and orchestrates the process of a distributed transaction \
 `payment-service` - it performs local transaction on the customer account basing on the `Order` price \
 `stock-service` - it performs local transaction on the store basing on number of products in the `Order`
