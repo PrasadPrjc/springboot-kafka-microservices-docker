@@ -8,7 +8,7 @@ There are three microservices: \
 
 Here's the diagram with our architecture:
 
-![image](https://raw.githubusercontent.com/shuchi-sinha/spring-kafka-microservices/master/arch.png)
+![image](https://github.com/shuchi-sinha/springboot-kafka-microservices-docker/blob/main/arch.png)
 
 (1) `order-service` send a new `Order` -> `status == NEW` \
 (2) `payment-service` and `stock-service` receive `Order` and handle it by performing a local transaction on the data \
